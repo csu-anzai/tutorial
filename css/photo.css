@@ -1,0 +1,109 @@
+﻿/*-------- フレーム --------*/
+#grid {
+	
+	width: 100%;
+	height: 100%;
+	
+}
+
+#grid ul {
+	
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	
+}
+
+#grid li {
+	
+	margin: 20px 5px;
+	float: left;
+	list-style: none;
+	
+}
+
+.picture-box {
+	
+	margin-left: -4px;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+    background-size: cover;
+	width: 160px;
+	height: 160px;
+	opacity: 0;
+    cursor: url("/lib/intense/plus_cursor_min.png") 25 25, crosshair;
+
+}
+
+.thumbnail_20180225_5 {
+	background-image: url("/photo/img/thumbnail_20180225_5.JPG");
+}
+
+.thumbnail_20180225_4 {
+	background-image: url("/photo/img/thumbnail_20180225_4.JPG");
+}
+
+.thumbnail_20180225_3 {
+	background-image: url("/photo/img/thumbnail_20180225_3.JPG");
+}
+
+.thumbnail_20180225_2 {
+	background-image: url("/photo/img/thumbnail_20180225_2.JPG");
+}
+
+.thumbnail_20180225_1 {
+	background-image: url("/photo/img/thumbnail_20180225_1.JPG");
+}
+
+.thumbnail_20180131_1 {
+	background-image: url("/photo/img/thumbnail_20180131_1.JPG");
+}
+
+.thumbnail_20171213_1 {
+	background-image: url("/photo/img/thumbnail_20171213_1.JPG");
+}
+
+.thumbnail_20170502_1 {
+	background-image: url("/photo/img/thumbnail_20170502_1.JPG");
+}
+
+.thumbnail_20161204_3 {
+	background-image: url("/photo/img/thumbnail_20161204_3.JPG");
+}
+
+.thumbnail_20161112_1 {
+	background-image: url("/photo/img/thumbnail_20161112_1.JPG");
+}
+
+.thumbnail_20150923_1 {
+	background-image: url("/photo/img/thumbnail_20150923_1.JPG");
+}
+
+.thumbnail_20150920_1 {
+	background-image: url("/photo/img/thumbnail_20150920_1.JPG");
+}
+
+
+/*--------------------------------
+  SP表示
+--------------------------------*/
+
+@media screen and (max-width: 720px){
+
+#grid ul{
+	
+	padding: 0px 0px 0px 20px;
+	
+}
+
+.picture-box {
+	
+	width: 80px;
+	height: 80px;
+	
+}
+
+
+}

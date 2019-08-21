@@ -1,0 +1,64 @@
+﻿<div off-canvas="sb-left left push">
+
+	<form class="searchbox" method="get" action="https://www.google.co.jp/search" target="_blank">
+		<input type="text" name="q" size="0" maxlength="255" value="" placeholder="サイト内検索">
+		<input class="searchbutton" type="submit" name="btn" value="検索">
+		<input type="hidden" name="hl" value="ja">
+		<input type="hidden" name="sitesearch" value="blog-hazimetemitannda.ga">
+	</form>
+
+	<ul class="menu-list">
+		<li><a href="/">最新記事</a></li>
+		<li>技術
+			<ul>
+			<li><a href="#">Raspberry Pi</a></li>
+			<li><a href="#">Web</a></li>
+			</ul>
+		</li>
+		<li><a href="/photo/index.html">写真</a></li>
+		<li><a href="#">その他</a></li>
+	</ul>
+	
+
+	<div id="social-icon" class="clear">
+        <!--
+		<a href="#"><i class="fa fa-google-plus fa-lg"></i>Google+</a>
+		<a href="#"><i class="fa fa-facebook fa-lg"></i>Facebook</a>
+        -->
+		<a href="#"><i class="fa fa-twitter fa-lg"></i>Twitter</a>
+	</div>
+
+</div>
+
+
+<script>
+//TODO すばやく3回クリックすると、メニューが表示されない。
+// https://www.adchsm.com/slidebars/help/api/
+    
+//TODO 画面サイズが小さいと、MENUボタンがかぶってしまう。
+
+( function ( $ ) {
+	
+	// Initialize Slidebars
+	var controller = new slidebars();
+	controller.init();
+	
+	/**
+	* Original Version Style Control Classes
+	*/
+	// Toggle left
+	$( '.sb-toggle-left' ).on( 'click', function ( event ) {
+	
+		event.preventDefault();
+		event.stopPropagation();
+	
+		controller.toggle( 'sb-left' );
+		
+	} );
+
+
+	// jQuery.fontFlex.js Settings
+    $('body').fontFlex(16, 20, 60);
+	
+} ) ( jQuery );
+</script>

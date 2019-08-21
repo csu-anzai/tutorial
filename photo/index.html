@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP" manifest="/cache.manifest">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Photo</title>
+
+	<!-- Webフォント -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="/lib/normalize/normalize.css">	
+	<link rel="stylesheet" href="/lib/slidebars/slidebars.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/photo.css">
+</head>
+
+
+<body>
+	<div class="sb-toggle-left menu-button" >MENU</div>
+
+	<!-- ヘッダー Start -->
+	<div id="header"></div>
+	<!-- ヘッダー End -->
+	
+	
+	<!-- メニュー Start -->
+	<div id="slidebar"></div>
+	<!-- メニュー End -->
+
+	
+	<!-- 内容 Start -->
+	<div canvas="container">
+		<div  class="contents">
+			<div class="contents-title">お写真</div>
+			
+			<div id="grid">
+				<ul>
+                    <li>
+						<div class="picture-box intense thumbnail_20180225_5"
+							data-image="./img/20180225_5.JPG"
+							data-title="眼光"
+							data-caption="@蔵王キツネ村" />
+					</li>
+                    <li>
+						<div class="picture-box intense thumbnail_20180225_4"
+							data-image="./img/20180225_4.JPG"
+							data-title="笑う毛玉"
+							data-caption="@蔵王キツネ村" />
+					</li>
+                    <li>
+						<div class="picture-box intense thumbnail_20180225_3"
+							data-image="./img/20180225_3.JPG"
+							data-title="見つめる毛玉"
+							data-caption="@蔵王キツネ村" />
+					</li>
+					<li>
+						<div class="picture-box intense thumbnail_20180225_2"
+							data-image="./img/20180225_2.JPG"
+							data-title="毛玉"
+							data-caption="@蔵王キツネ村" />
+					</li>
+                    <li>
+						<div class="picture-box intense thumbnail_20180225_1"
+							data-image="./img/20180225_1.JPG"
+							data-title="Battle"
+							data-caption="@蔵王キツネ村" />
+					</li>
+					<li>
+                        <div class="picture-box intense thumbnail_20180131_1"
+							data-image="./img/20180131_1.JPG"
+							data-title="皆既月食"
+							data-caption="@自宅" />
+                    </li>
+                    <li>
+                        <div class="picture-box intense thumbnail_20171213_1"
+							data-image="./img/20171213_1.jpg"
+							data-title="憂鬱"
+							data-caption="すぐる君@猫カフェ猫の王様" />
+                    </li>
+                    <li>
+                        <div class="picture-box intense thumbnail_20170502_1"
+							data-image="./img/20170502_1.JPG"
+							data-title="滑空"
+							data-caption="@宮島" />
+                    </li>
+                    <li>
+                        <div class="picture-box intense thumbnail_20161204_3"
+							data-image="./img/20161204_3.JPG"
+							data-title="ふわふわちゃん"
+							data-caption="@日光花いちもんめ" />
+                    </li>
+					<li>
+                        <div class="picture-box intense thumbnail_20161112_1"
+							data-image="./img/20161112_1.JPG"
+							data-title="和の光"
+							data-caption="@嵐電嵐山" />
+                    </li>
+                    <li>
+                        <div class="picture-box intense thumbnail_20150923_1"
+							data-image="./img/20150923_1.JPG"
+							data-title="ラベンダー畑"
+							data-caption="@ファーム富田" />
+                    </li>
+                    <li>
+                        <div class="picture-box intense thumbnail_20150920_1"
+							data-image="./img/20150920_1.JPG"
+							data-title="急行はまなす"
+							data-caption="最後の定期運行急行列車@青森駅" />
+                    </li>
+				</ul>
+			</div>
+	
+	
+
+		</div>
+		
+	</div>
+	<!-- 内容 End -->
+	
+	
+	<script type="text/javascript" src="/js/cachecheck.js"></script>
+	
+	<script type="text/javascript" src="/lib/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="/lib/slidebars/slidebars.min.js"></script>
+	<script type="text/javascript" src="/lib/fontflex/jQuery.fontFlex.js"></script>
+	<script type="text/javascript" src="/lib/kute/kute.min.js"></script>
+	<script type="text/javascript" src="/lib/kute/kute-css.min.js"></script>
+	<script type="text/javascript" src="/lib/intense/intense.min.js"></script>
+		
+	<script type="text/javascript" src="/js/common.js"></script>
+	<script type="text/javascript" src="/js/photo.js"></script>
+	
+	
+	<script>
+		var elements = document.querySelectorAll( '.intense' );
+		Intense( elements );
+	</script>
+    
+</body>
+
+</html>

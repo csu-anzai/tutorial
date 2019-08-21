@@ -1,0 +1,172 @@
+﻿/*--------------------------------
+  PC表示
+--------------------------------*/
+
+/*-------- 全体 --------*/
+a { text-decoration:none; }
+
+
+
+/*-------- ヘッダー --------*/
+#fixed-header {
+	
+	vertical-align: middle;
+	text-align: center;
+	color: #ff7f7f;
+	
+}
+
+#fixed-header a {
+
+	color: #ff7f7f;
+	
+}
+	
+.title {
+	
+	height: 80px;
+	line-height: 80px;
+	font-size: 40px;
+	font-weight: 800;
+
+	
+}
+
+.small-title {
+	
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+
+}
+
+
+/*-------- メニュー --------*/
+.menu-button{
+	
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 80px;
+	font-size: 16px;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid #ff8e8e;
+	color: #ff8e8e;
+	line-height: 40px;
+	z-index: 2;
+	
+}
+
+.menu-button:hover { background-color: rgba(255, 0, 0, .2); }
+
+.searchbox {
+
+	margin-top: 80px;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+.menu-list {
+	
+	margin-top: 20px;
+	
+}
+
+.menu-list li {
+	
+	margin-top: 4px;
+	margin-left: -24px;
+	margin-right: 8px;
+	margin-bottom: 4px;
+	padding: 4px;
+	font-size: 16px;
+	font-weight: 800;
+	list-style-type: none;
+	color: #404040;
+	border-left: solid 8px #ff8e8e; /*左側の線*/
+	border-bottom: solid 2px #dadada; /*下に灰色線*/
+	background: whitesmoke;
+	line-height: 1.5;
+
+}
+
+.menu-list ul li ul li { margin-left: -28px; }
+
+#social-icon {
+	
+	margin: auto;
+	
+}
+
+#social-icon a {
+	
+	position: relative;
+	display: block;
+	width:100px;
+	margin: 5px auto;
+	padding: 0 0 0 40px;
+	background-color: rgba(198, 187, 128, .5);
+	color: #fff;
+	text-decoration: none;
+	text-align:center;
+	line-height: 40px;
+  
+}
+
+#social-icon i {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	background-color: rgba(198, 187, 128, .5);
+	line-height: 40px;
+	text-align: center;
+  
+}
+
+#social-icon i:before { padding 0; line-height: 40px; }
+#social-icon a:hover i { background: #b2a251; }
+#social-icon a:hover .fa-google-plus { background: #c53727; }
+#social-icon a:hover .fa-twitter { background: #00a1e9; }
+#social-icon a:hover .fa-facebook { background: #3b5998; }
+
+
+/*-------- 本文 --------*/
+.contents {
+	
+	max-width: 720px;
+	height: 100%;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.contents-title {
+	
+	font-size: 28px;
+	text-align: center;
+	
+}
+
+
+/*--------------------------------
+  SP表示
+--------------------------------*/
+
+@media screen and (max-width: 720px){
+
+.contents {
+	
+	max-width: 80%;
+	
+}
+
+
+}
